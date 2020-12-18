@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Current date</title>
+    </head>
+    <body>
+        <button onclick="getdate()">Get date</button>
+        <p id ="p1"></p>
+        <script>
+         function getdate(){
+             var today = new Date();
+             var dd= today.getDate();
+             var mm = today.getMonth()+1;
+             var yyyy= today.getFullYear()
+             document.write(dd + "-" + mm + "-" + yyyy);
+             document.write(dd + "/" + mm + "/" + yyyy);
+            }
+      
+        
+            
+        </script>
+    </body>
+</html>

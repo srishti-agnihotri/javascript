@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset=utf-8 />
+        <title>area of triangle</title>
+    </head>
+    <body>
+        <p id ="p1"></p>
+
+        <script>
+            var s1 = 5; 
+            var s2 = 6; 
+            var s3 = 7; 
+            var s = (s1 + s2 + s3)/2;
+            var area =  Math.sqrt(s*((s-s1)*(s-s2)*(s-s3)));
+            console.log(area);
+            document.getElementById("p1").innerHTML=area;
+        </script>
+    </body>
+</html>

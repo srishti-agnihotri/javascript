@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+
+
+        <script type = "text/javascript" > 
+            var one_day = 1000 * 60 * 60 * 24 
+             var present_date = new Date(); 
+             var christmas_day = new Date(present_date.getFullYear(), 11, 25) 
+            
+             if (present_date.getMonth() == 11 && present_date.getDate() > 25) 
+            christmas_day.setFullYear(christmas_day.getFullYear() + 1) 
+
+             var Result = Math.round(christmas_day.getTime() - present_date.getTime()) / (one_day); 
+          
+
+            var Final_Result = Result.toFixed(0); 
+          
+            document.write("Number of days remaining till christmas <br>" 
+                       + present_date + "<br> and <br>" 
+                       + christmas_day + " is: <br> " 
+                       + Final_Result); 
+          
+        </script> 
+    </body>
+</html>
+
+ 
