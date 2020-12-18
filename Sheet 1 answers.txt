@@ -1,2 +1,32 @@
-answer 1:
+1.)How can you create an object in JavaScript?
+answer 1: with new keyword 
+          var today = new Date();
+2.)How can you create an Array in JavaScript?
+answer 2: array can be creater using []
+         var ar = [a1 ,a2, a3 ]
+3.)How to create a cookie using JavaScript?
+answer 3:JavaScript can create, read, and delete cookies with the document.cookie property.
+          like  document.cookie ="username = srishti";
+5.)What is the difference between Local storage & Session storage with example?
+answer 5: data in localStorage doesn't expire, data in sessionStorage is cleared when the page session ends.
+          like A page session lasts as long as the browser is open, and survives over page reloads and restores.
+          -Opening a page in a new tab or window creates a new session with the value of the top-level browsing context, which differs from how session cookies work.
+        -Opening multiple tabs/windows with the same URL creates sessionStorage for each tab/window.    
+6.)What will be the output of the code below?
+var Y = 1;
+if (function F(){})
+{
+y += Typeof F;</span>
+}
+console.log(y);
 
+7.)What is the difference between Call & Apply with example?
+answer 7:call() Method: It calls the method, taking the owner object as argument. The keyword this refers to the ‘owner’ of the function or the object it belongs to. 
+       We can call a method which can be used on different objects.
+       apply() Method: The apply() method is used to write methods, which can be used on different objects. 
+       It is different from the function call() because it takes arguments as an array.
+8.)How to empty an Array in JavaScript?
+answer 8 : wecan empty an array by setting the length to zero of bye relacing every index with null.
+
+14.)If we want to return the character from a specific index which method is used, explain with example?
+answer : string charAt()
